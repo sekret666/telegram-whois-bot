@@ -5,7 +5,7 @@ $message = file_get_contents('php://input');
 require 'vendor/autoload.php';
 
 
-$api_token = 'TOKEN';
+$api_token = '1501460756:AAG1HVKjSrdduxiI72qwl22ssb9s8rGD_BM';
 
 $tg = new Smoqadam\Telegram($api_token);
 $whois = new Smoqadam\Whois();
